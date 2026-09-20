@@ -312,6 +312,20 @@
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
             {%- when 'buy_buttons' -%}
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
+              <div class="nt-pdp-trust-strip" style="display:grid; grid-template-columns: repeat(2, 1fr); gap:12px; margin-top:20px; padding:16px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px;">
+                <div style="display:flex; align-items:center; gap:8px; font-size:12px; font-weight:700; color:#1e293b;">
+                  <span style="font-size:18px;">🌿</span> 100% Natural Flavours
+                </div>
+                <div style="display:flex; align-items:center; gap:8px; font-size:12px; font-weight:700; color:#1e293b;">
+                  <span style="font-size:18px;">🇩🇪</span> German Formulated
+                </div>
+                <div style="display:flex; align-items:center; gap:8px; font-size:12px; font-weight:700; color:#1e293b;">
+                  <span style="font-size:18px;">🔬</span> Cologne List® Certified
+                </div>
+                <div style="display:flex; align-items:center; gap:8px; font-size:12px; font-weight:700; color:#1e293b;">
+                  <span style="font-size:18px;">⚡</span> Dispatched in 24 Hours
+                </div>
+              </div>
             {%- when 'rating' -%}
               {%- if product.metafields.reviews.rating.value != blank -%}
                 {% liquid

@@ -1,0 +1,83 @@
+<div class="videopoup_section" data-section-type="video_with_popup">
+  <div class="page-width">
+    <div class="headingvideo" style="text-align:center; margin-bottom:30px;">
+      <h2 class="heading__collectionGrid">{{ section.settings.title | default: 'What our experts have to say?' }}</h2>
+    </div>
+    <div class="video-product-grid">
+      
+      <!-- Video 1 -->
+      <div class="video_img_grid">
+        <div class="product-block" data-video="https://cdn.shopify.com/videos/c/o/v/6b9da153e2d14f78abf821289757b5f9.mp4">
+          <div class="video-wrapper" style="position:relative;">
+            <video class="lazy-video" src="https://cdn.shopify.com/videos/c/o/v/6b9da153e2d14f78abf821289757b5f9.mp4" loop muted playsinline autoplay style="pointer-events:none;"></video>
+            <div style="position:absolute; inset:0; background:linear-gradient(transparent 60%, rgba(0,0,0,0.8)); display:flex; align-items:flex-end; padding:16px;">
+              <div style="color:#ffffff;">
+                <h4 style="margin:0 0 4px; font-size:15px; font-weight:700;">Milind Soman on Natural Nutrition</h4>
+                <p style="margin:0; font-size:12px; opacity:0.85;">Why 100% natural ingredients matter</p>
+              </div>
+            </div>
+            <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:50px; height:50px; background:rgba(219,146,1,0.9); border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 15px rgba(0,0,0,0.4);">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="#ffffff"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Video 2 -->
+      <div class="video_img_grid">
+        <div class="product-block" data-video="https://cdn.shopify.com/videos/c/o/v/f0acd6e10a034b7999d4abc098b06c34.mp4">
+          <div class="video-wrapper" style="position:relative;">
+            <video class="lazy-video" src="https://cdn.shopify.com/videos/c/o/v/f0acd6e10a034b7999d4abc098b06c34.mp4" loop muted playsinline autoplay style="pointer-events:none;"></video>
+            <div style="position:absolute; inset:0; background:linear-gradient(transparent 60%, rgba(0,0,0,0.8)); display:flex; align-items:flex-end; padding:16px;">
+              <div style="color:#ffffff;">
+                <h4 style="margin:0 0 4px; font-size:15px; font-weight:700;">Clean Protein Without Bloating</h4>
+                <p style="margin:0; font-size:12px; opacity:0.85;">BC30 Probiotics for gut absorption</p>
+              </div>
+            </div>
+            <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:50px; height:50px; background:rgba(219,146,1,0.9); border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 15px rgba(0,0,0,0.4);">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="#ffffff"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Video 3 -->
+      <div class="video_img_grid">
+        <div class="product-block" data-video="https://cdn.shopify.com/videos/c/o/v/6b9da153e2d14f78abf821289757b5f9.mp4">
+          <div class="video-wrapper" style="position:relative;">
+            <video class="lazy-video" src="https://cdn.shopify.com/videos/c/o/v/6b9da153e2d14f78abf821289757b5f9.mp4" loop muted playsinline autoplay style="pointer-events:none;"></video>
+            <div style="position:absolute; inset:0; background:linear-gradient(transparent 60%, rgba(0,0,0,0.8)); display:flex; align-items:flex-end; padding:16px;">
+              <div style="color:#ffffff;">
+                <h4 style="margin:0 0 4px; font-size:15px; font-weight:700;">Cologne List® Dope-Free Testing</h4>
+                <p style="margin:0; font-size:12px; opacity:0.85;">Certified clean for competitive athletes</p>
+              </div>
+            </div>
+            <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:50px; height:50px; background:rgba(219,146,1,0.9); border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 15px rgba(0,0,0,0.4);">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="#ffffff"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Naturaltein Expert Videos",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "What our experts have to say?"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Naturaltein Expert Videos"
+    }
+  ]
+}
+{% endschema %}

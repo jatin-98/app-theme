@@ -1,0 +1,130 @@
+<div class="collectionlist_slider" data-section-type="collection_list_new">
+  <div class="page-width">
+    <h2 class="heading__collectionGrid">{{ section.settings.title | default: 'TOP CATEGORIES' }}</h2>
+    <div class="collection_slider">
+      <div class="swiper-container-list swiper">
+        <div class="swiper-wrapper">
+          
+          <!-- Category 1: Whey Protein -->
+          <div class="swiper-slide">
+            <div class="collimgtitle">
+              <a href="/collections/whey-protein">
+                <div class="collectionlistimg">
+                  <img src="//naturaltein.in/cdn/shop/collections/Natural-Whey-Protein-Max-Chocolate-1-400x400.webp?v=1784780697&width=450" alt="Whey Protein" loading="lazy">
+                </div>
+                <div class="image_titlecoll">
+                  <div class="collectio_title">
+                    Whey Protein
+                    <span class="icon-wrap">
+                      <svg viewBox="0 0 141 141" style="width:20px;height:20px;"><circle cx="70.5" cy="70.5" r="60" fill="none" stroke="#db9201" stroke-width="6"/><path d="M60 45l25 25-25 25" fill="none" stroke="#db9201" stroke-width="6" stroke-linecap="round"/></svg>
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Category 2: Yes Protein -->
+          <div class="swiper-slide">
+            <div class="collimgtitle">
+              <a href="/collections/natural-yes-protein">
+                <div class="collectionlistimg">
+                  <img src="//naturaltein.in/cdn/shop/collections/Natural-Whey-Protein-Max-Chocolate-1-400x400_9b30dbc2-36ac-42ce-835f-9e3f73442e36.webp?v=1784715575&width=450" alt="Yes Protein" loading="lazy">
+                </div>
+                <div class="image_titlecoll">
+                  <div class="collectio_title">
+                    Yes Protein
+                    <span class="icon-wrap">
+                      <svg viewBox="0 0 141 141" style="width:20px;height:20px;"><circle cx="70.5" cy="70.5" r="60" fill="none" stroke="#db9201" stroke-width="6"/><path d="M60 45l25 25-25 25" fill="none" stroke="#db9201" stroke-width="6" stroke-linecap="round"/></svg>
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Category 3: Omega3 -->
+          <div class="swiper-slide">
+            <div class="collimgtitle">
+              <a href="/collections/omega-3">
+                <div class="collectionlistimg">
+                  <img src="//naturaltein.in/cdn/shop/collections/Omega3.webp?v=1784433436&width=450" alt="Omega3" loading="lazy">
+                </div>
+                <div class="image_titlecoll">
+                  <div class="collectio_title">
+                    Omega3
+                    <span class="icon-wrap">
+                      <svg viewBox="0 0 141 141" style="width:20px;height:20px;"><circle cx="70.5" cy="70.5" r="60" fill="none" stroke="#db9201" stroke-width="6"/><path d="M60 45l25 25-25 25" fill="none" stroke="#db9201" stroke-width="6" stroke-linecap="round"/></svg>
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Category 4: Vitamins & Supplements -->
+          <div class="swiper-slide">
+            <div class="collimgtitle">
+              <a href="/collections/vitamins-supplements">
+                <div class="collectionlistimg">
+                  <img src="//naturaltein.in/cdn/shop/collections/main-photo-67118ed98ea7b-400x400_17d37fa3-0c01-439d-8aed-1f3051172996.webp?v=1784715471&width=450" alt="Vitamins & Supplements" loading="lazy">
+                </div>
+                <div class="image_titlecoll">
+                  <div class="collectio_title">
+                    Vitamins & Supplements
+                    <span class="icon-wrap">
+                      <svg viewBox="0 0 141 141" style="width:20px;height:20px;"><circle cx="70.5" cy="70.5" r="60" fill="none" stroke="#db9201" stroke-width="6"/><path d="M60 45l25 25-25 25" fill="none" stroke="#db9201" stroke-width="6" stroke-linecap="round"/></svg>
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Category 5: Plant Protein -->
+          <div class="swiper-slide">
+            <div class="collimgtitle">
+              <a href="/collections/vegan">
+                <div class="collectionlistimg">
+                  <img src="//naturaltein.in/cdn/shop/collections/plant_protein_chocolate_2_2.webp?v=1784716097&width=450" alt="Plant Protein" loading="lazy">
+                </div>
+                <div class="image_titlecoll">
+                  <div class="collectio_title">
+                    Plant Protein
+                    <span class="icon-wrap">
+                      <svg viewBox="0 0 141 141" style="width:20px;height:20px;"><circle cx="70.5" cy="70.5" r="60" fill="none" stroke="#db9201" stroke-width="6"/><path d="M60 45l25 25-25 25" fill="none" stroke="#db9201" stroke-width="6" stroke-linecap="round"/></svg>
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+        </div>
+        <div class="slider-buttons" style="display:flex; justify-content:center; gap:16px; margin-top:20px;">
+          <button class="slider-button slider-button--prevs" style="background:#f1f5f9; border:none; width:40px; height:40px; border-radius:50%; font-size:20px; cursor:pointer;">‹</button>
+          <button class="slider-button slider-button--nexts" style="background:#f1f5f9; border:none; width:40px; height:40px; border-radius:50%; font-size:20px; cursor:pointer;">›</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Top Categories",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "TOP CATEGORIES"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Top Categories"
+    }
+  ]
+}
+{% endschema %}

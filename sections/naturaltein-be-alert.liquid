@@ -1,0 +1,26 @@
+<div class="be-alert-section">
+  <div class="page-width">
+    <div class="be-alert-message">
+      <p>{{ section.settings.alert_text | default: 'Be alert! We never offer prizes via calls/SMS or ask for payments through links.' }}</p>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Naturaltein Be Alert",
+  "settings": [
+    {
+      "type": "text",
+      "id": "alert_text",
+      "label": "Alert Message",
+      "default": "Be alert! We never offer prizes via calls/SMS or ask for payments through links."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Naturaltein Be Alert"
+    }
+  ]
+}
+{% endschema %}

@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "page-contact",
+      "type": "page-great-place",
       "settings": {}
     }
   },
@@ -9,3 +9,4 @@
     "main"
   ]
 }
+

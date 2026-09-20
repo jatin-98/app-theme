@@ -1,21 +1,12 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "current": "Default",
   "presets": {
     "Default": {
       "logo_width": 50,
       "colors_solid_button_labels": "#ffffff",
-      "colors_accent_1": "#121212",
+      "colors_accent_1": "#db9201",
       "gradient_accent_1": "",
-      "colors_accent_2": "#45c0b6",
+      "colors_accent_2": "#86d822",
       "gradient_accent_2": "",
       "colors_text": "#000000",
       "colors_outline_button_labels": "#121212",

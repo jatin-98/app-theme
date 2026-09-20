@@ -1,0 +1,41 @@
+<div class="SPWP_section-outer" data-section-type="search_product_w_prices">
+  <div class="SPWP_section" style="background-image:url('//naturaltein.in/cdn/shop/files/search_bar.webp?v=1755173129&width=3200'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+    <div class="container page-width">
+      <h2 class="buywithwishhead">{{ section.settings.heading | default: 'Help me find the best protein!' }}</h2>
+      <div class="SPWP-inner">
+        <div class="wishtospend">
+          <span>I want to buy protein in the price range of</span>
+          <select name="wishtospendupto" class="selectwishspend" aria-label="choose price">
+            <option value="" disabled selected>Select price range</option>
+            <option value="0-2000">upto ₹2,000</option>
+            <option value="2000-3000">₹2,000 - ₹3,000</option>
+            <option value="3000-4000">₹3,000 - ₹4,000</option>
+            <option value="4000-5000">₹4,000 - ₹5,000</option>
+          </select>
+        </div>
+        <div class="spwp_btn">
+          <button type="button" class="spwn_btn_search">Find Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Protein Finder",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Help me find the best protein!"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Protein Finder"
+    }
+  ]
+}
+{% endschema %}
