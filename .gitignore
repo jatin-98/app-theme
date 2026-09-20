@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+package-lock.json
+# Shopify CLI temporary data & local cache
+.shopify/
+*.log
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
